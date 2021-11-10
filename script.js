@@ -53,14 +53,7 @@ function displayInvoice(){
         document.getElementById('invoice').innerHTML = block1;
        let block2 = ``;
        
-    //    block2 =` <tr>
-    //    <td class="left">
-    //        <strong class="text-dark">Subtotal</strong>
-    //    </td>
-    //    <td class="right">$28,809,00</td>
-    //   </tr>
-    //    `   
-    //    document.getElementById('total').innerHTML= block2;
+    
      document.getElementById('total').innerHTML= total;
 
 }
